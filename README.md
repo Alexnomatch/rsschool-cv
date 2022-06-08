@@ -1,1 +1,1 @@
-# rsschool-cv
+https://alexnomatch.github.io/rsschool-cv/cv
