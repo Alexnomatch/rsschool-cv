@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #202020;
+}
+
+.origin {
+  background: rgba(255, 255, 255, 0.8);
+  margin: 150px auto 50px;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  text-align: left;
+}
+
+header .line {
+  width: 300px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 215px;
+  border-style: none;
+  border: none;
+}
+
+#avatar {
+  border-radius: 5px;
+  border: 1px solid #202020;
+}
+
+.intro {
+  position: relative;
+  right: 133px;
+  display: flex;
+  margin: 5px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.intro h1 {
+  padding: 20px 0 50px 0;
+}
+
+.intro h2 {
+  padding: 10px 0 20px 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 10px 0 10px;
+  border-top: 3px solid #202020;
+}
+
+nav ul {
+  padding: 0 0 20px 19px;
+  list-style-type: square;
+}
+
+li {
+  padding-top: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #202020;
+}
+
+main {
+  margin: 0 10px 0 10px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+.code h2 {
+  margin-bottom: 20px;
+}
+
+code {
+  background-color: #202020;
+  color: #cfcfcf;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.courses {
+  margin-top: 40px;
+}
+
+footer {
+  margin: 0 10px 0 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-top: 3px solid #202020;
+}
+
+footer a:first-child {
+  position: relative;
+  right: 50px;
+  top: 10px;
+}
+
+footer p {
+  position: relative;
+  top: 10px;
+  left: 50px;
+}
+
+.rs-logo {
+  width: 100px;
+}
